@@ -3,8 +3,8 @@ module web-api
 go 1.16
 
 require (
-	github.com/coreos/etcd v3.3.27+incompatible // indirect
 	github.com/go-kratos/consul v0.1.5
+	github.com/go-kratos/kratos/contrib/registry/consul/v2 v2.0.0-20211124092129-2acede53f3e8
 	github.com/go-kratos/kratos/v2 v2.1.2
 	github.com/google/wire v0.5.0
 	github.com/hashicorp/consul/api v1.11.0

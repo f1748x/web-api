@@ -32,8 +32,6 @@ github.com/cncf/xds/go v0.0.0-20210312221358-fbca930ec8ed/go.mod h1:eXthEFrGJvWH
 github.com/cncf/xds/go v0.0.0-20210805033703-aa0b78936158/go.mod h1:eXthEFrGJvWHgFFCl3hGmgk+/aYT6PnTQLykKQRLhEs=
 github.com/cncf/xds/go v0.0.0-20210922020428-25de7278fc84/go.mod h1:eXthEFrGJvWHgFFCl3hGmgk+/aYT6PnTQLykKQRLhEs=
 github.com/cncf/xds/go v0.0.0-20211011173535-cb28da3451f1/go.mod h1:eXthEFrGJvWHgFFCl3hGmgk+/aYT6PnTQLykKQRLhEs=
-github.com/coreos/etcd v3.3.27+incompatible h1:QIudLb9KeBsE5zyYxd1mjzRSkzLg9Wf9QlRwFgd6oTA=
-github.com/coreos/etcd v3.3.27+incompatible/go.mod h1:uF7uidLiAD3TWHmW31ZFd/JWoc32PjwdhPthX9715RE=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
@@ -57,6 +55,8 @@ github.com/go-kit/kit v0.9.0/go.mod h1:xBxKIO96dXMWWy0MnWVtmwkA9/13aqxPnvrjFYMA2
 github.com/go-kratos/aegis v0.1.1/go.mod h1:jYeSQ3Gesba478zEnujOiG5QdsyF3Xk/8owFUeKcHxw=
 github.com/go-kratos/consul v0.1.5 h1:vUWyuwwczEojXee4DJG5ae+KSqZM3qWjn1sbrOixmKY=
 github.com/go-kratos/consul v0.1.5/go.mod h1:egsB9apqg+4BMYVnY/VuQCeC3aAmd7mpYfIMhs4ga4U=
+github.com/go-kratos/kratos/contrib/registry/consul/v2 v2.0.0-20211124092129-2acede53f3e8 h1:jDe7J5+W6tsV6hVuA8RQWgKu7ha8rW+mxOtdIpklO8w=
+github.com/go-kratos/kratos/contrib/registry/consul/v2 v2.0.0-20211124092129-2acede53f3e8/go.mod h1:mD7GHMX3M54N+JxRG7UypXd0e7LW6sDx7rh2AQU2iOM=
 github.com/go-kratos/kratos/v2 v2.0.1/go.mod h1:Jz6fuJFF2SLczQ7Y8ocKieVGgstQKa+R9NX09bCHekU=
 github.com/go-kratos/kratos/v2 v2.1.2 h1:O5RGtDysd/yht01Jo0KXvVxvK4RN9KJ1CCZBFuewzjU=
 github.com/go-kratos/kratos/v2 v2.1.2/go.mod h1:/SOOBnLEDEgQRXV9bVVyZsITmxKsilSCc15U8uiNzcI=
