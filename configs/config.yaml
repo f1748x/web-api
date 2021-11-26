@@ -1,7 +1,7 @@
 service:
   name: "T.web.api"
   version: "v1"
-  user-srv: "T.user.service"
+  user-srv: T.web.srv
 server:
   http:
     addr: 0.0.0.0:8001

@@ -19,13 +19,14 @@ import (
 // go build -ldflags "-X main.Version=x.y.z"
 var (
 	// Name is the name of the compiled software.
-	Name string
+	Name string = "T.web.api"
 	// Version is the version of the compiled software.
-	Version string
+	Version string = "v0.0.1"
 	// flagconf is the config flag.
 	flagconf string
 
-	id, _ = os.Hostname()
+	// id, _ = os.Hostname()
+	id string = "9876"
 )
 
 func init() {

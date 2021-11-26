@@ -2,6 +2,7 @@ package data
 
 import (
 	"context"
+	"fmt"
 	v1 "web-api/api/user"
 	"web-api/internal/biz"
 
@@ -50,6 +51,8 @@ func (c webDataRepo) Login(ctx context.Context, name, pwd string) (*v1.GetUserRe
 		Pwd:      pwd,
 	})
 	if err != nil {
+		fmt.Println("client--------------")
+		fmt.Println(err.Error())
 		return nil, err
 	}
 	//user.UserDetail

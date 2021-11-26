@@ -47,7 +47,7 @@ func NewData(logger log.Logger, client uClient.UserClient) (*Data, func(), error
 func NewUserServiceClient(r registry.Discovery) uClient.UserClient {
 	conn, err := grpc.DialInsecure(
 		context.Background(),
-		grpc.WithEndpoint("discovery:///T.user.service"), //链接远程服务
+		grpc.WithEndpoint("discovery:///T.user.srv"), //链接远程服务
 		grpc.WithDiscovery(r),
 		grpc.WithMiddleware(
 			metadata.Client(),
